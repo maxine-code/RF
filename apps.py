@@ -722,8 +722,8 @@ def server(input, output, session):
 # 创建应用实例
 app = App(app_ui, server)
 
-# 运行应用
-if __name__ == "__main__":
-    app.run(port=8001)
+## 运行应用
+# if __name__ == "__main__":
+#     app.run(port=8001)
 
 
