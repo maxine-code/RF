@@ -1,6 +1,5 @@
 # %%
-# 导入Shiny框架的核心模块，用于构建Web应用
-from shiny import App, ui, render, reactive
+import streamlit as st
 # 导入pandas库，用于数据处理和分析
 import pandas as pd
 # 导入numpy库，用于数值计算
